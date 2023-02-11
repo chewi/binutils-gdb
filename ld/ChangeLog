@@ -2,6 +2,8 @@
 
 	* ldelf.c: Always consider -L arguments when handling DT_NEEDED for
 	consistency with other linkers, including gold.
+	* ldelf.c: Do not search for libraries using ld.so.conf for
+	consistency with other linkers, including gold.
 
 2023-01-27  Nick Clifton  <nickc@redhat.com>
 
