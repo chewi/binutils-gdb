@@ -1,3 +1,8 @@
+2023-02-11  James Le Cuirot  <chewi@gentoo.org>
+
+	* ldelf.c: Always consider -L arguments when handling DT_NEEDED for
+	consistency with other linkers, including gold.
+
 2023-01-27  Nick Clifton  <nickc@redhat.com>
 
 	PR 29998
